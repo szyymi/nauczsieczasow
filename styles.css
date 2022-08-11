@@ -19,19 +19,26 @@ body {
     transition: all 1000ms;
   }
   
-  .showcase:hover::after {
+  .showcase::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.redd.it/szpj454cve391.png);
+    background-position: center;
+    display: block;
     filter: blur(10px);
     -webkit-filter: blur(10px);
+    transition: all 1000ms;
   }
   
-  .showcase .content:hover {
+  .showcase:hover::after {
     filter: blur(0px);
     -webkit-filter: blur(0px);
-    
   }
+  
   .showcase:hover .content {
-    filter: blur(10px);
-    -webkit-filter: blur(0px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
   }
   
   .content {
@@ -44,8 +51,10 @@ body {
     width: 300px;
     height: 350px;
     text-align: center;
-    
+    transition: all 1000ms;
   }
+  
+
   
   .content .logo {
     height: 180px;
