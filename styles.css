@@ -1,20 +1,19 @@
 body {
-    background:rgb(9, 6, 26);
+    background:#470D21;
     margin: 0;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#F9E4D4;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
   }
   
   .showcase::after {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(https://i.redd.it/szpj454cve391.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
+    filter: blur(0px);
     -webkit-filter: blur(0px);
     transition: all 1000ms;
   }
@@ -23,22 +22,22 @@ body {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(https://i.redd.it/szpj454cve391.png);
+    background-image: url(https://img.freepik.com/free-vector/empty-room-with-wooden-bookshelves_33099-1727.jpg?w=1800&t=st=1664390884~exp=1664391484~hmac=58d8746eeac623d6bc290f4801c4ec220e0d7ee69b23aa7a73cf5c84501c38b4);
     background-position: center;
     display: block;
     filter: blur(10px);
-    -webkit-filter: blur(10px);
-    transition: all 1000ms;
+    -webkit-filter: blur(26px);
+    transition: all 1200ms;
   }
   
   .showcase:hover::after {
-    filter: blur(0px);
+    filter: blur(10px);
     -webkit-filter: blur(0px);
   }
   
   .showcase:hover .content {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    filter: blur(20px);
+    -webkit-filter: blur(0px);
   }
   
   .content {
@@ -110,12 +109,12 @@ body {
   }
   
   .bg-light {
-    background: #f4f4f4;
+    background: #F9E4D4;
     color: #333;
   }
   
   .bg-dark {
-    background: rgb(9, 6, 26);
+    background: #470D21;
     color: #fff;
   }
   
@@ -126,8 +125,7 @@ body {
   footer p {
     margin: 0;
   }
-  
-  /* Small Screens */
+
   @media (max-width: 560px) {
     .showcase::after {
       height: 50vh;
@@ -158,7 +156,7 @@ body {
     }
   }
   
-  /* Landscape */
+
   @media (max-height: 500px) {
     .content .title,
     .content .text {
@@ -173,18 +171,21 @@ body {
 .letmeknow {
   display: grid;
   justify-content: center;
-  
+  color: #9C0F48;
 }
 
 a {
   text-decoration: none;
+  color: antiquewhite;
 }
+ a:hover {
+  color: #D67D3E;
+ }
 
 .tensesbg {
   content: '';
   height: 100vh;
   width: 100%;
-  background-image: url(https://i.redd.it/szpj454cve391.png);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -192,41 +193,7 @@ a {
   justify-content:space-around;
   vertical-align: top;
   text-align: center;
-
-  
- 
- 
-  }
-
-  .des1 {
-  position: absolute;
-  margin-top: 100px;
-  margin-right: 65%;
-  width: 30%;
-  }
-
-
-.des2 {
-  position: absolute;
-  margin-top: 100px;
-  width: 30%;
-  
 }
-.des3 {
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 65%;
-  width: 30%;
- 
-}
-
- 
-
-
-
-
-
-
 
   .pastphoto {
     width: 8.2rem;
@@ -240,3 +207,4 @@ a {
     width: 8.2rem;
   }
 
+ 
