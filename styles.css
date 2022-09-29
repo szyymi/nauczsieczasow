@@ -22,7 +22,7 @@ body {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(https://img.freepik.com/free-vector/library-with-bookcases-ladder-chair-lamp_107791-3023.jpg?w=2000&t=st=1664471110~exp=1664471710~hmac=c6b10f3fd473d930fb7a4237963a9a01ca8083afca8465bf06a578919fe77166);
+    background-image: url(3023.jpg);
     filter: blur(10px);
     -webkit-filter: blur(26px);
     transition: all 1200ms;
